@@ -14,3 +14,44 @@ numero1 = int(input("Digite um número: "))
 numero2 = int(input("Digite um número: "))
 resultado = numero1 * numero2
 print(resultado)
+
+# 4 - Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo
+numero1 = int(input("Digite um número: "))
+numero2 = int(input("Digite um número: "))
+resultado = numero1 // numero2
+print(resultado)
+
+# 5 - Escreva um programa que calcule o quadrado de um número fornecido pelo usuário
+numero1 = int(input("Digite um número: "))
+quadrado = numero1 ** 2
+print(quadrado)
+
+# %%
+
+# 6 - Escreva um programa que receba dois números flutuantes e realize sua adição
+numero1 = float(input("Digite um número: "))
+numero2 = float(input("Digite um número: "))
+resultado = numero1 + numero2
+print(resultado)
+# %%
+# 7 - Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário
+numero1 = float(input("Digite um número: "))
+numero2 = float(input("Digite um número: "))
+resultado = (numero1 + numero2) / 2
+print(resultado)
+# %%
+# 8 - Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário)
+base = float(input('Digite a base: '))
+expoente = float(input('Digite o expoente: '))
+potencia = base ** expoente
+print(potencia)
+# %%
+# 9 - Faça um programa que converta a temperatura de Celsius para Fahrenheit.
+celsius = float(input("Digite a temperatura em Celsius: "))
+fahrenheit = (celsius * 9/5) + 32
+print(f"{celsius}°C é igual a {fahrenheit}°F")
+# %%
+# 10 - Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada
+raio = float(input("Digite o raio do círculo: "))
+area = 3.14159 * raio ** 2
+print("A área do círculo é:", area)
