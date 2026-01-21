@@ -4,3 +4,8 @@ numero2 = int(input("Digite um número: "))
 resultado = numero1 + numero2
 print(resultado)
 
+# 2 - Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
+numero1 = int(input('Digite um número: '))
+resto = numero1 % 5 
+print(f'O resto da divisão por 5 é {resto}')
+
